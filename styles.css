@@ -1,0 +1,47 @@
+body {
+    background: #202124;
+    color: beige;
+    font-family: monospace;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+}
+
+#content{
+    border: beige 1px solid;
+}
+
+li {
+    list-style: none;
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+    width: fit-content;
+    padding: 50px;
+    margin: auto;
+    gap: 100px;
+}
+
+#time-div {
+    text-align: center;
+}
+
+#time {
+    font-size: 35px;
+}
+
+#date {
+    font-size: 15px;
+}
+
+#links-div {
+    margin: auto;
+}
