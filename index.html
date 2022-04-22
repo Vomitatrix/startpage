@@ -10,8 +10,16 @@
 <body>
     <div id="content">
         <div id="time-div" class="content-div">
-            <h2 id="time"></h2>
-            <h2 id="date"></h2>
+            <h2 id="time">
+                <script>
+                    document.getElementById('time').textContent = new Date().toLocaleTimeString();
+                </script>
+            </h2>
+            <h2 id="date">
+                <script>
+                    document.getElementById('date').textContent = new Date().toLocaleDateString();
+                </script>
+            </h2>
         </div>
         <div id="links-div" class="content-div">
             <ul>
